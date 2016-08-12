@@ -14,4 +14,14 @@ public class JMath {
     int f = max-min;
     return g.nextInt(f) + min;
   }
+  public static int sum(int[] values) {
+    int k = 0;
+    for (int i = 0; i < values.length; i++) {
+      k+= values[i];
+    }
+    return k;
+  }
+  public static int avg(int[] values) {
+    return sum(values) / values.length;
+  }
 }
