@@ -14,4 +14,10 @@ public class FloatUtils {
     }
     return Integer.parseInt(g);
   }
+  public static int roundToInt(float f) {
+    int n = chop(f);
+    float z = f - n;
+    n += (z >= 0.5)?1;
+    return n;
+  }
 }
