@@ -1,5 +1,12 @@
 package jogen.game.world.planet.data.region;
 
+import java.util.Random;
+
+import japi.data.number.FloatUtils;
+
+import jogen.game.world.object.data.position.Pos;
+import jogen.game.world.planet.data.region.*;
+
 public class Region {
   Pos[] outerBorders;
   RegionItem[] layers;
